@@ -12,3 +12,16 @@
  
  }
 }
+
+const countVOW = (str) => {
+    let count = 0;
+
+    for (const char of str) {
+        console.log(char);
+
+        if (char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U') {
+            count++;
+        }
+    }
+    return count;
+}
